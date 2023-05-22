@@ -16,7 +16,7 @@ PREMADE_OBJECTS = exploits/limera1n.o exploits/steaks4uce.o
 
 OSX_LIBRARIES = usb-1.0
 COMMON_LIBRARIES = curl z
-LDFLAGS = -L/opt/local/lib
+LDFLAGS = -L/usr/local/lib
 CFLAGS = -DNO_PAYLOADS=1 -DCURL_STATICLIB=1
 
 TARGET = syringe

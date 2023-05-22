@@ -50,7 +50,7 @@
 		9D5B194B129CA9B40012E3D4 /* tetheredboot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tetheredboot; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5B1953129CA9D70012E3D4 /* syringe.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = syringe.xcodeproj; sourceTree = "<group>"; };
 		9DDA5E83129CB05E008AF000 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
-		9DDA5E84129CB05E008AF000 /* libusb-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.dylib"; path = "/opt/local/lib/libusb-1.0.dylib"; sourceTree = "<absolute>"; };
+		9DDA5E84129CB05E008AF000 /* libusb-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.dylib"; path = "/usr/local/lib/libusb-1.0.dylib"; sourceTree = "<absolute>"; };
 		9DDA5E85129CB05E008AF000 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -301,7 +301,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
@@ -320,7 +320,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
@@ -341,7 +341,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
@@ -360,7 +360,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
@@ -381,7 +381,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
@@ -400,7 +400,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/local/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
